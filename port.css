@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@500&family=Kalam&family=Roboto+Mono:wght@100&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+*{
+    background-color: #0F0F0F;
+    font-family: "Silkscreen", sans-serif;
+}
+
+/*Nav*/
+
+.navbar ul{
+    border-radius: 15px;
+    background-color: black;
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.navbar a,li{
+    list-style: none;
+    background-color: black;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#sidebar{
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+#home{
+    margin-left: 1175px;
+}
+
+#abt{
+    margin-left: 50px;
+}
+
+#switch{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+/*Kotak atas*/
+
+.part1{
+    background-color: black;
+    border-radius: 15px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.kotak1{
+    background-color: black;
+    border-radius: 15px;
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kotak1 h1{
+    color: aliceblue;
+    background-color: black;
+    width: 50%;
+    margin-left: 30px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.kotak1 p{
+    color: aliceblue;
+    background-color: black;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    width: 50%;
+}
+
+.social-container {
+    display: flex;
+    margin-left: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.social-container a {
+    margin: 0 10px;
+    font-size: 50px; 
+    background-color: black;
+    color: aliceblue;
+}
+
+.gambar1 {
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.gambar1 img {
+    width: 250px;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-left: -100px;
+    background-color: black;
+}
+
+/*geser*/
+
+#capabilities{
+    font-size: 50px;
+    color: white;
+    margin-left: 50px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.part2slides{
+    animation: 15s slidepart2 infinite linear;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: calc(360px*12);
+}
+
+.part2slides img{
+    margin: 0 30px;
+    width: 300px;
+    height: 250px;
+}
+
+@keyframes slidepart2{
+    0% {transform: translateX(0);}
+    100% {transform: translateX(calc(-360px * 6));}
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+/*geser*/
